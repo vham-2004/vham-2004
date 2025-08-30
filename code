@@ -1,0 +1,106 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vel Milk Dairy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+    }
+    header {
+      background: #2c7a7b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #285e61;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      padding: 40px;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      background: #2c7a7b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vel Milk Dairy</h1>
+    <p>Freshness & Quality in Every Drop</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container" id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Vel Milk Dairy! We are committed to providing the best quality milk and milk-based products such as paneer, curd, sweets, and more. Our products are 100% fresh and healthy.</p>
+  </div>  <div class="container" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1623067960476-6c8f1eab0b92" alt="Milk">
+        <h3>Fresh Milk</h3>
+        <p>Pure and fresh milk for your daily needs.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1604909053195-73d0bb64b7a6" alt="Curd">
+        <h3>Curd</h3>
+        <p>Thick, creamy curd made with natural culture.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1627653654742-2e81da1e5292" alt="Paneer">
+        <h3>Paneer</h3>
+        <p>Soft and fresh paneer, perfect for cooking.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1606312618144-b94b2fcdfc1d" alt="Sweets">
+        <h3>Sweets</h3>
+        <p>Delicious dairy sweets made with love.</p>
+      </div>
+    </div>
+  </div>  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 9940 640 497</p>
+    <p><strong>Email:</strong> <a href="mailto:velmilkproducts@gmail.com">velmilkproducts@gmail.com</a></p>
+  </div>  <footer>
+    <p>&copy; 2025 Vel Milk Dairy. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
